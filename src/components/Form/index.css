@@ -1,0 +1,90 @@
+.app-container {
+    background-color: #ffb6c1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2px;
+    color: #ffb6c1;
+  }
+  
+  .input-field {
+    margin-top: 6px;
+    font-family: 'Roboto';
+    height: 40px;
+    padding: 5px 5px 5px 15px;
+    background-color: transparent;
+    border: 1px solid #64748b;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .input-textarea {
+    margin-top: 6px;
+    font-family: 'Roboto';
+    height: 200px;
+    padding: 5px 5px 5px 15px;
+    background-color: transparent;
+    border: 1px solid #64748b;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #ffb6c1;
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .success-message {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 2px;
+    color: #ffb6c1;
+  }
+  
+  .error-msg {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
